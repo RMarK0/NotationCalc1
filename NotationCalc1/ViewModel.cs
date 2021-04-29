@@ -19,7 +19,7 @@ namespace NotationCalc
 
             double result10 = Model.DoAction(actionID, First, Second);
             AnswerBlock10.Text = "В 10-чной системе - " + result10;
-            if (Math.Abs(First % Second) > 0)
+            if (Math.Abs(First % Second) > 0 && actionID == 2)
             {
                 AnswerBlock.Text = "Не удается получить ответ от дробного числа";
             }
