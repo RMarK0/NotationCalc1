@@ -8,7 +8,7 @@
         Title="MainWindow" Height="400" Width="700"
         ResizeMode="CanMinimize">
     <Grid Name="Grid">
-        <ComboBox HorizontalAlignment="Left" Margin="445,31,0,0" VerticalAlignment="Top" Width="230" Name="SourceNotation1ComboBox">
+        <ComboBox HorizontalAlignment="Left" Margin="537,269,0,0" VerticalAlignment="Top" Width="142" Name="SourceNotation1ComboBox">
             <TextBlock>2</TextBlock>
             <TextBlock>3</TextBlock>
             <TextBlock>4</TextBlock>
@@ -20,7 +20,7 @@
             <TextBlock>10</TextBlock>
         </ComboBox>
 
-        <ComboBox HorizontalAlignment="Left" Margin="445,91,0,0" VerticalAlignment="Top" Width="230" Name="SourceNotation2ComboBox">
+        <ComboBox HorizontalAlignment="Left" Margin="537,296,0,0" VerticalAlignment="Top" Width="142" Name="SourceNotation2ComboBox">
             <TextBlock>2</TextBlock>
             <TextBlock>3</TextBlock>
             <TextBlock>4</TextBlock>
@@ -31,17 +31,17 @@
             <TextBlock>9</TextBlock>
             <TextBlock>10</TextBlock>
         </ComboBox>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,31,0,0" TextWrapping="NoWrap" PreviewTextInput="PrevTextInput"
-                 Text="" VerticalAlignment="Top" Width="400" Name="FirstTextBox" DataObject.Pasting="TextBoxPasting"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,91,0,0" TextWrapping="NoWrap" PreviewTextInput="PrevTextInput"
-                 Text="" VerticalAlignment="Top" Width="400" Name="SecondTxtBox" DataObject.Pasting="TextBoxPasting"/>
+        <TextBox Margin="207,54,197,282" TextWrapping="NoWrap" PreviewTextInput="PrevTextInput"
+                 Text="" Name="FirstTextBox" DataObject.Pasting="TextBoxPasting" Width="280" Height="23"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="207,129,0,0" TextWrapping="NoWrap" PreviewTextInput="PrevTextInput"
+                 Text="" VerticalAlignment="Top" Width="280" Name="SecondTxtBox" DataObject.Pasting="TextBoxPasting"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Введите первое значение" VerticalAlignment="Top" Width="400"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,70,0,0" TextWrapping="Wrap" Text="Введите второе значение" VerticalAlignment="Top" Width="400"/>
-        <TextBlock HorizontalAlignment="Left" Margin="445,70,0,0" TextWrapping="Wrap" Text="Выберите систему счисления" VerticalAlignment="Top" Width="230"/>
-        <TextBlock HorizontalAlignment="Left" Margin="445,10,0,0" TextWrapping="Wrap" Text="Выберите систему счисления" VerticalAlignment="Top" Width="230"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0 0 0 300" TextWrapping="Wrap" Text="Введите первое значение" VerticalAlignment="Center" Width="400" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0 0 0 150" TextWrapping="Wrap" Text="Введите второе значение" VerticalAlignment="Center" Width="400" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,302,0,0" TextWrapping="Wrap" Text="Выберите систему счисления" VerticalAlignment="Top" Width="230"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,275,0,0" TextWrapping="Wrap" Text="Выберите систему счисления" VerticalAlignment="Top" Width="230"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="445,157,0,0" VerticalAlignment="Top" Width="230" Name="TargetNotationComboBox">
+        <ComboBox HorizontalAlignment="Left" Margin="537,323,0,0" VerticalAlignment="Top" Width="142" Name="TargetNotationComboBox">
             <TextBlock>2</TextBlock>
             <TextBlock>3</TextBlock>
             <TextBlock>4</TextBlock>
@@ -53,11 +53,11 @@
             <TextBlock>10</TextBlock>
         </ComboBox>
 
-        <TextBlock HorizontalAlignment="Left" Margin="445,136,0,0" TextWrapping="Wrap" Text="Выберите целевую систему счисления" VerticalAlignment="Top" Width="230"/>
-        <Button Content="Сложить" Name="Button1" HorizontalAlignment="Center" Margin="0 320 150 0" VerticalAlignment="Center" Width="130" Click="ButtonAdd_OnClick"/>
-        <Button Content="Умножить" Name="Button2" HorizontalAlignment="Center" Margin="150 320 0 0" VerticalAlignment="Center" Width="130" Click="ButtonMultiply_OnClick"/>
-        <Button Content="Вычесть" Name="Button3" HorizontalAlignment="Center" Margin="0 320 450 0" VerticalAlignment="Center" Width="130" Click="ButtonSubstract_OnClick"/>
-        <Button Content="Поделить" Name="Button4" HorizontalAlignment="Center" Margin="450 320 0 0" VerticalAlignment="Center" Width="130" Click="ButtonDivide_OnClick"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,329,0,0" TextWrapping="Wrap" Text="Выберите целевую систему счисления" VerticalAlignment="Top" Width="230"/>
+        <Button Content="Сложить" Name="Button1" HorizontalAlignment="Center" Margin="17,56,547,282" VerticalAlignment="Center" Width="130" Click="ButtonAdd_OnClick" Height="33"/>
+        <Button Content="Умножить" Name="Button2" HorizontalAlignment="Center" Margin="554,16,10,322" VerticalAlignment="Center" Width="130" Click="ButtonMultiply_OnClick" Height="33"/>
+        <Button Content="Вычесть" Name="Button3" HorizontalAlignment="Center" Margin="554,56,10,282" VerticalAlignment="Center" Width="130" Click="ButtonSubstract_OnClick" Height="33"/>
+        <Button Content="Поделить" Name="Button4" HorizontalAlignment="Center" Margin="17,16,547,322" VerticalAlignment="Center" Width="130" Click="ButtonDivide_OnClick" Height="33"/>
 
     </Grid>
 </Window>
